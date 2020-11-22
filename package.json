@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuznetsoviv/js_course.git"
+    "url": "git+https://github.com/kuznetsoviv/food.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kuznetsoviv/js_course/issues"
+    "url": "https://github.com/kuznetsoviv/food/issues"
   },
-  "homepage": "https://github.com/kuznetsoviv/js_course#readme"
+  "homepage": "https://github.com/kuznetsoviv/food#readme",
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
 }
