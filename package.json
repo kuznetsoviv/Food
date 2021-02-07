@@ -12,11 +12,28 @@
   },
   "author": "",
   "license": "ISC",
+  "browsersList": [
+    "> 1%"
+  ],
   "bugs": {
     "url": "https://github.com/kuznetsoviv/food/issues"
   },
   "homepage": "https://github.com/kuznetsoviv/food#readme",
+  "browserslist": [
+    "> 1%"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.12.7",
+    "@babel/core": "^7.12.7",
+    "@babel/preset-env": "^7.12.7",
+    "babel-loader": "^8.2.1",
+    "core-js": "^3.7.0",
     "json-server": "^0.16.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "es6-promise": "^4.2.8",
+    "jquery": "^3.5.1",
+    "nodelist-foreach-polyfill": "^1.2.0"
   }
 }
